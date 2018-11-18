@@ -1,0 +1,90 @@
+section {
+    height: 20rem;
+    width: 100%;
+    position: relative;
+}
+
+section #home {
+    font-size: 3rem;
+    color: #123612;
+    text-align: center;
+    position: relative;
+    bottom: -62%;
+    margin: auto;
+    left: 44%;
+    text-decoration: none;
+    text-shadow: 3px 3px 8px #363535;
+    text-shadow: 1px 1px 0px rgb(190, 188, 17);
+    font-weight: 500;
+}
+
+.container {
+    height: 100%;
+    border-radius: 155rem / 30rem;
+    border: solid .25rem #292828;
+    background-image: url('../../assets/images/54446_forest_dark_forest.jpg');
+    position: relative;
+    top: -50%;
+}
+
+.container:before {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: -2rem;
+    border-radius: 155rem / 30rem;
+    border: outset 1.75rem #383535;
+}
+
+.links {
+    display: grid;
+    height: 5rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "review . . contact" ". . . ." ". projects about .";
+    text-align: center;
+    position: relative;
+    font-size: 1.3rem;
+    font-weight: 400;
+    top: 63%;
+}
+
+.links a {
+    color: #61aa61;
+    text-shadow: 4px 4px 2px #000;
+    text-decoration: none;
+}
+
+#reviews {
+    grid-area: review;
+    position: relative;
+    bottom: -.8rem;
+    transform: rotate(12deg);
+}
+
+#projects {
+    grid-area: projects;
+    position: relative;
+    text-align: center;
+    bottom: -.8rem;
+    transform: rotate(2.5deg);
+}
+
+#contact {
+    grid-area: contact;
+    position: relative;
+    text-align: center;
+    bottom: -.8rem;
+    transform: rotate(-12deg);
+}
+
+#about {
+    grid-area: about;
+    position: relative;
+    text-align: center;
+    transform: rotate(-2.5deg);
+    bottom: -.7rem;
+}
