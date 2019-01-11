@@ -5,7 +5,6 @@ import lombok.*;
 
 import javax.persistence.*;
 import java.time.LocalDate;
-import java.util.List;
 
 @Entity
 @Getter
@@ -29,11 +28,6 @@ public class Project {
     @Column(name="desrciption")
     private String description;
 
-    @Column(name="imageUrl")
-    private List<String> projectImageUrls;
-
-    public void addImageToList(String url) {
-        this.projectImageUrls.add(url);
-    }
-
+    @Column(name="imageURL")
+    private String imageURL;
 }

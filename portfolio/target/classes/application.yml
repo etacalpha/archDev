@@ -1,0 +1,13 @@
+spring:
+profiles:
+mail:
+host: smtp.gmail.com
+port: 587
+username: hopejustfound@gmail.com  #Replace this field with your Gmail username.
+password: Developer           #Replace this field with your Gmail password.
+protocol: smtp
+tls: true
+properties.mail.smtp:
+auth: true
+starttls.enable: true
+ssl.trust: smtp.gmail.com

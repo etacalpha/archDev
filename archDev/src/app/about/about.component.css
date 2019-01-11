@@ -1,0 +1,19 @@
+h2{
+  color: #61aa61;
+}
+
+p{
+  color: white;
+}
+
+a{
+  color: cyan;
+  text-decoration: none;
+}
+
+.info1 {
+  padding: 0 2.5rem 0 2.5rem;
+}
+.figure1 img{
+  width:15rem;
+}

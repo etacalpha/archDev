@@ -1,16 +1,14 @@
 /home/sbeard/Code/github/personal/personalWebsite/portfolio/src/main/java/tech/archdev/portfolio/services/EmailService.java
 /home/sbeard/Code/github/personal/personalWebsite/portfolio/src/main/java/tech/archdev/portfolio/domains/Review.java
-/home/sbeard/Code/github/personal/personalWebsite/portfolio/src/main/java/tech/archdev/portfolio/services/VideoService.java
 /home/sbeard/Code/github/personal/personalWebsite/portfolio/src/main/java/tech/archdev/portfolio/services/AboutService.java
 /home/sbeard/Code/github/personal/personalWebsite/portfolio/src/main/java/tech/archdev/portfolio/services/ProjectService.java
 /home/sbeard/Code/github/personal/personalWebsite/portfolio/src/main/java/tech/archdev/portfolio/domains/Project.java
 /home/sbeard/Code/github/personal/personalWebsite/portfolio/src/main/java/tech/archdev/portfolio/services/FileUploadService.java
 /home/sbeard/Code/github/personal/personalWebsite/portfolio/src/main/java/tech/archdev/portfolio/services/ReviewService.java
 /home/sbeard/Code/github/personal/personalWebsite/portfolio/src/main/java/tech/archdev/portfolio/repositories/AboutRepository.java
-/home/sbeard/Code/github/personal/personalWebsite/portfolio/src/main/java/tech/archdev/portfolio/repositories/VideoRepository.java
 /home/sbeard/Code/github/personal/personalWebsite/portfolio/src/main/java/tech/archdev/portfolio/repositories/ProjectRepository.java
 /home/sbeard/Code/github/personal/personalWebsite/portfolio/src/main/java/tech/archdev/portfolio/services/StorageService.java
-/home/sbeard/Code/github/personal/personalWebsite/portfolio/src/main/java/tech/archdev/portfolio/domains/Video.java
+/home/sbeard/Code/github/personal/personalWebsite/portfolio/src/main/java/tech/archdev/portfolio/web/EmailResource.java
 /home/sbeard/Code/github/personal/personalWebsite/portfolio/src/main/java/tech/archdev/portfolio/PortfolioApplication.java
 /home/sbeard/Code/github/personal/personalWebsite/portfolio/src/main/java/tech/archdev/portfolio/domains/About.java
 /home/sbeard/Code/github/personal/personalWebsite/portfolio/src/main/java/tech/archdev/portfolio/repositories/ReviewRepository.java

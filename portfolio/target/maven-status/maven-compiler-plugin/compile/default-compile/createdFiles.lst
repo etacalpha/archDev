@@ -1,13 +1,11 @@
 tech/archdev/portfolio/services/FileUploadService.class
+tech/archdev/portfolio/web/EmailResource.class
 tech/archdev/portfolio/services/EmailService.class
 tech/archdev/portfolio/domains/About.class
-tech/archdev/portfolio/repositories/VideoRepository.class
 tech/archdev/portfolio/services/StorageService.class
 tech/archdev/portfolio/PortfolioApplication.class
 tech/archdev/portfolio/repositories/AboutRepository.class
 tech/archdev/portfolio/services/AboutService.class
-tech/archdev/portfolio/services/VideoService.class
-tech/archdev/portfolio/domains/Video.class
 tech/archdev/portfolio/services/ProjectService.class
 tech/archdev/portfolio/domains/Review.class
 tech/archdev/portfolio/repositories/ReviewRepository.class

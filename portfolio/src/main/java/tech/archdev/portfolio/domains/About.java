@@ -3,7 +3,6 @@ package tech.archdev.portfolio.domains;
 import lombok.*;
 
 import javax.persistence.*;
-import java.util.List;
 
 @Entity
 @Getter
@@ -28,12 +27,5 @@ public class About {
     @Lob
     @Column(name="future")
     private String future;
-
-    @Column(name="imageUrl")
-    private List<String> aboutImageUrls;
-
-    public void addImageToList(String url) {
-        this.aboutImageUrls.add(url);
-    }
 
 }
