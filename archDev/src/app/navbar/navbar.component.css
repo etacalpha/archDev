@@ -51,7 +51,7 @@ section {
   position: relative;
   bottom: -62%;
   margin: auto;
-  left: 44%;
+  left: 42%;
   text-decoration: none;
   text-shadow: 1px 1px 0px rgb(190, 188, 17);
   font-weight: 500;
@@ -89,6 +89,45 @@ section {
 }
 
 
+
+@media only screen and (max-width : 1600px) {
+
+  #contact {
+    grid-area: contact;
+    position: relative;
+    text-align: center;
+    bottom: -1.5rem;
+    transform: rotate(-12deg);
+  }
+
+
+  #reviews {
+    grid-area: review;
+    position: relative;
+    bottom: -1.5rem;
+    transform: rotate(12deg);
+  }
+}
+
+@media only screen and (max-width : 1220px) {
+
+  #contact {
+    grid-area: contact;
+    position: relative;
+    text-align: center;
+    bottom: -2.5rem;
+    transform: rotate(-12deg);
+  }
+
+
+  #reviews {
+    grid-area: review;
+    position: relative;
+    bottom: -2.5rem;
+    transform: rotate(12deg);
+  }
+}
+
 @media only screen and (max-width : 700px) {
 
   section {
@@ -122,7 +161,7 @@ section {
     position: relative;
     bottom: -62%;
     margin: auto;
-    left: 30%;
+    left: 25%;
     text-decoration: none;
     text-shadow: 1px 1px 0px rgb(190, 188, 17);
     font-weight: 500;
@@ -198,41 +237,42 @@ section {
   }
 
 }
-@media only screen and (max-width : 1600px) {
 
-  #contact {
-    grid-area: contact;
+@media only screen and (max-width : 400px) {
+
+  section {
+    height: 20rem;
+    width: 100%;
     position: relative;
-    text-align: center;
-    bottom: -1.5rem;
-    transform: rotate(-12deg);
   }
 
+  .container:before {
+    content: " ";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: -2rem;
+    border-radius: 155rem / 50rem;
+    border: outset 1.75rem #383535;
+  }
 
-  #reviews {
-    grid-area: review;
+  .nav  a{
+    font-size: small;
+    color: #61aa61;
+    text-shadow: 4px 4px 2px #000;
+    text-decoration: none;
+  }
+
+  #home {
+    font-size: 3rem;
+    color: #123612;
+    text-align: center;
     position: relative;
-    bottom: -1.5rem;
-    transform: rotate(12deg);
+    bottom: -62%;
+    margin: auto;
+    left: 15%;
+    text-shadow: 1px 1px 0 rgb(190, 188, 17);
+    font-weight: 500;
   }
 }
-
-@media only screen and (max-width : 1220px) {
-
-  #contact {
-    grid-area: contact;
-    position: relative;
-    text-align: center;
-    bottom: -2.5rem;
-    transform: rotate(-12deg);
-  }
-
-
-  #reviews {
-    grid-area: review;
-    position: relative;
-    bottom: -2.5rem;
-    transform: rotate(12deg);
-  }
-}
-

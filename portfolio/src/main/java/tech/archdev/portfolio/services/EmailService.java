@@ -4,7 +4,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.MailException;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
-import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 
@@ -14,27 +13,20 @@ public class EmailService {
     private JavaMailSender javaMailSender;
 
     @Autowired
-    public EmailService(JavaMailSender javaMailSender){
+    public EmailService(JavaMailSender javaMailSender) {
         this.javaMailSender = javaMailSender;
     }
 
-    @Async
-    public void sendNotification() throws MailException, InterruptedException {
-
-        System.out.println("Sleeping now...");
-        Thread.sleep(10000);
-
-        System.out.println("Sending email...");
+    public void sendEmail(String email, String text, String firstName, String lastName,
+                          String company) throws MailException {
 
         SimpleMailMessage mail = new SimpleMailMessage();
         mail.setTo("etacalpha@gmail.com");
-        mail.setFrom("from");
-        mail.setSubject("subject");
-        mail.setText("message");
+        mail.setFrom("arch.dev.email@gmail.com");
+        mail.setSubject("Email from Portfolio Site");
+        mail.setText(text + "\n" + "\n" + "\n" + firstName + " " + lastName +
+                    "\n" + company + "\n" + email);
+
         javaMailSender.send(mail);
-
-        System.out.println("Email Sent!");
     }
-
 }
-

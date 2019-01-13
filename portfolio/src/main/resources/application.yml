@@ -1,12 +1,25 @@
 spring:
-mail:
-host: smtp.gmail.com
-port: 587
-username: hopejustfound@gmail.com
-password: Developer
-protocol: smtp
-tls: true
-properties.mail.smtp:
-auth: true
-starttls.enable: true
-ssl.trust: smtp.gmail.com
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: *******@gmail.com
+    password: *******
+    protocol: smtp
+    tls: true
+    properties.mail.smtp:
+      auth: true
+      starttls.enable: true
+      ssl.trust: smtp.gmail.com
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+    platform: h2
+
+    # enable H2 web console and set url for web console
+    # http://localhost:8080/console
+    h2:
+      console:
+        enabled: true
+        path: /console

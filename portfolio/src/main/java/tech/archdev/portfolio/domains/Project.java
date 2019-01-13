@@ -1,10 +1,8 @@
 package tech.archdev.portfolio.domains;
 
-
 import lombok.*;
-
 import javax.persistence.*;
-import java.time.LocalDate;
+import java.io.Serializable;
 
 @Entity
 @Getter
@@ -12,7 +10,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @ToString
 @EqualsAndHashCode
-public class Project {
+public class Project implements Serializable {
 
     @Id
     @GeneratedValue
@@ -21,13 +19,10 @@ public class Project {
     @Column(name="name")
     private String name;
 
-    @Column(name = "created")
-    private LocalDate created;
-
     @Lob
-    @Column(name="desrciption")
+    @Column(name="description")
     private String description;
 
-    @Column(name="imageURL")
-    private String imageURL;
+    @Column(name="imageLocation")
+    private String imageLocation;
 }

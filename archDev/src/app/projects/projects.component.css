@@ -1,14 +1,3 @@
-@media (min-width: 480px) {
-  .leading {
-    display: flex;
-    align-items: center;
-    padding:50px;
-  }
-  .leading-text{
-    padding:30px;
-  }
-}
-
 /* Flex styles -------------------------------------------------*/
 main{
   background: url('../../assets/images/Code.png') center #333 no-repeat;
@@ -32,26 +21,6 @@ main{
   margin-right: 20px;
 }
 
-.leading {
-  margin:auto auto 20px auto;
-  padding: 50px;
-  color: white;
-  background-size: cover;
-  text-shadow: 0 0 5px #000;
-}
-
-.leading-text {
-  color: #4c9e20;
-  max-width: 900px;
-  font-size: 3vw;
-  text-shadow: 4px 4px 2px #000;
-  text-decoration: none;
-  font-weight:500;
-  line-height: 1.4em;
-  margin:-100px auto;
-  padding:30px;
-}
-
 .cards {
   max-width: 960px;
   margin: 0 auto 30px;
@@ -73,5 +42,5 @@ article {
   bottom: 0;
   width: 100%;
   padding: 10px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.5);
 }

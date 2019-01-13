@@ -1,9 +1,13 @@
 h2{
   color: #61aa61;
+  text-shadow: 1px 1px 1px #000;
+
 }
 
 p{
-  color: white;
+  color: #61aa61;
+  text-shadow: 1px 1px 1px #000;
+
 }
 
 a{

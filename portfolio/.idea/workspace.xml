@@ -2,36 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aeb3a32f-6c69-4a4c-b8c7-a8362873e6fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archDev/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archDev/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../archDev/src/app/about/about.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/about/about.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archDev/src/app/about/about.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/about/about.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archDev/src/app/home/home.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/home/home.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archDev/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archDev/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archDev/src/app/contact/contact.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/contact/contact.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archDev/src/app/contact/contact.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/contact/contact.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archDev/src/app/contact/contact.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/contact/contact.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archDev/src/app/navbar/navbar.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/navbar/navbar.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../archDev/src/app/projects/projects.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/projects/projects.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../archDev/src/app/projects/projects.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/projects/projects.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archDev/src/app/projects/projects.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/projects/projects.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archDev/src/app/review/review.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/review/review.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archDev/src/app/review/review.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/review/review.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archDev/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/PortfolioApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/PortfolioApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/About.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/About.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/About.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/repositories/AboutRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/repositories/AboutRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/Review.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/repositories/AboutRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/repositories/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/repositories/ProjectRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/services/AboutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/services/AboutService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/repositories/ReviewRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/services/AboutService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/services/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/services/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/services/FileUploadService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/services/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/services/ProjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/services/ReviewService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/services/StorageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/web/EmailResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/web/EmailResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/PortfolioApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/PortfolioApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/domains/About.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/domains/About.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/domains/About.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/domains/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/domains/Project.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/domains/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/domains/Review.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/domains/Video.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/repositories/AboutRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/repositories/AboutRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/repositories/ProjectRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/repositories/ProjectRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/repositories/ReviewRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/repositories/ReviewRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/repositories/VideoRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/services/AboutService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/services/AboutService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/domains/Review.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/repositories/AboutRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/repositories/ReviewRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/services/AboutService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/services/EmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/services/EmailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/services/VideoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/services/FileUploadService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/services/ProjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/services/ProjectService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/services/ReviewService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/services/StorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/web/EmailResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/web/EmailResource.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/portfolio-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/portfolio-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/portfolio-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/portfolio-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tech.archdev.portfolio.PortfolioApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tech.archdev.portfolio.PortfolioApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tech.archdev.portfolio.PortfolioApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/tech.archdev.portfolio.PortfolioApplicationTests.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,96 +63,55 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-97936890">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="20" />
-          <entry key="properties" value="2" />
-          <entry key="txt" value="3" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="20" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="1105" />
-          <entry key="yml" value="33" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1105" />
-          <entry key="YAML" value="33" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/About.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/Review.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/web/EmailResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="203">
+              <caret line="12" column="4" selection-start-line="12" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/web/ProjectResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="524">
+              <caret line="30" selection-start-line="30" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/services/ProjectService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/services/EmailService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="286">
+              <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -151,112 +133,117 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/Review.java" />
         <option value="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/repositories/ReviewRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/Project.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/services/EmailService.java" />
         <option value="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/services/AboutService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/PortfolioApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/repositories/AboutRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/repositories/ProjectRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/About.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/repositories/ProjectRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/Email.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/web/EmailResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/services/EmailService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/DataLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/Project.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/PortfolioApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/web/ProjectResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/services/ProjectService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="40" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="6" />
+    <option name="width" value="1268" />
+    <option name="height" value="714" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="portfolio" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="portfolio" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="portfolio" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="portfolio" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="portfolio" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="tech" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="portfolio" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="tech" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="archdev" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="portfolio" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="tech" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="archdev" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="portfolio" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="portfolio" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543166240635" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547417167154" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -271,6 +258,53 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PortfolioApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="portfolio" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tech.archdev.portfolio.PortfolioApplication" />
@@ -295,16 +329,20 @@
       <workItem from="1542590549868" duration="9000" />
       <workItem from="1542819272927" duration="2970000" />
       <workItem from="1543351712138" duration="4000" />
+      <workItem from="1547310031451" duration="8791000" />
+      <workItem from="1547350062994" duration="6810000" />
+      <workItem from="1547396936448" duration="11241000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16002000" />
+    <option name="totallyTimeSpent" value="42844000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19593148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32976446" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -314,17 +352,19 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2741228" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -335,113 +375,69 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="Material Palette" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/surefire-reports/tech.archdev.portfolio.PortfolioApplicationTests.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/services/AboutService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/services/ProjectService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/services/AboutService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/repositories/AboutRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/repositories/ReviewRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/About.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/Review.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/repositories/ProjectRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/PortfolioApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/ConstructorResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="153">
+          <caret line="217" selection-start-line="217" selection-end-line="217" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/repositories/AboutRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/User.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/repositories/ReviewRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/DataLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/Email.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/About.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/Review.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/web/EmailResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -450,12 +446,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/services/EmailService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+        <state relative-caret-position="506">
+          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/web/EmailResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="12" column="4" selection-start-line="12" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/PortfolioApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.12/tomcat-embed-core-9.0.12-sources.jar!/org/apache/tomcat/util/threads/TaskThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="60" selection-start-line="60" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/web/ProjectResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="30" selection-start-line="30" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/services/ProjectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
         </state>
       </provider>
     </entry>

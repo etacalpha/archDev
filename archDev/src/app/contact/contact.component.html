@@ -1,3 +1,32 @@
-<p>
-  contact works!
-</p>
+<div class="container">
+  <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" >
+
+    <div class="field">
+      <label for="firstName">First Name: </label>
+      <input id="firstName" formControlName="firstName">
+    </div>
+
+    <div class="field">
+      <label for="lastName">Last Name:</label>
+      <input id="lastName" formControlName="lastName">
+    </div>
+
+    <div class="field">
+      <label for="company">Company: </label>
+      <input id="company" formControlName="company">
+    </div>
+
+    <div class="field">
+      <label for="email">Email: </label>
+      <input id="email" formControlName="email">
+    </div>
+
+    <div class="field">
+      <label for="message">Message: </label>
+        <textarea id="message" formControlName="text"></textarea>
+    </div>
+
+    <button type="submit" [disabled]="contactForm.pristine">Send</button>
+
+  </form>
+</div>

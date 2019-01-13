@@ -13,6 +13,11 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
+import {ReactiveFormsModule} from "@angular/forms";
+import {HttpClientModule} from "@angular/common/http";
+import { ProjectDetailComponent } from './project-detail/project-detail.component';
+import {ProjectService} from "./project.service";
+import {MessageService} from "./message.service";
  @NgModule ({
   declarations: [
     AppComponent,
@@ -21,10 +26,16 @@ import { far } from '@fortawesome/free-regular-svg-icons';
     ReviewComponent,
     AboutComponent,
     ProjectsComponent,
-    ContactComponent
+    ContactComponent,
+    ProjectDetailComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
-  providers: [],
+  imports: [BrowserModule,
+            AppRoutingModule,
+            FontAwesomeModule,
+            ReactiveFormsModule,
+            HttpClientModule
+  ],
+  providers: [ProjectService, MessageService],
   bootstrap: [AppComponent]
 })
 export class AppModule {
