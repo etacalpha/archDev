@@ -19,6 +19,9 @@ public class Project implements Serializable {
     @Column(name="name")
     private String name;
 
+    @Column(name="tech")
+    private String tech;
+
     @Lob
     @Column(name="description")
     private String description;

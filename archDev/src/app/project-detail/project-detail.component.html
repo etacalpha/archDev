@@ -1,7 +1,29 @@
+<header class="title">
+  <h1>{{project.name}}</h1>
+</header>
+<div id="main">
 
-<div>
-{{project.id}}
-{{project.name}}
-{{project.description}}
-<img src="../../assets/images/{{project.imageLocation}}">
+  <section id="tech">
+    <h2 class="title">Tech / Languages Used: </h2>
+    <h3 class="info">{{project.tech}}</h3>
+  </section>
+
+  <section id="description">
+    <h2 class="title">Description: </h2>
+    <h3 class="info">{{project.description}}</h3>
+  </section>
+
+  <section id="image">
+    <div>
+      <img id="img" src="../../assets/images/{{project.imageLocation}}" alt="Image of web app">
+    </div>
+
+  </section>
 </div>
+
+
+
+
+
+
+

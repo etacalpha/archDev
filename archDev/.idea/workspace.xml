@@ -3,56 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="06766e86-454f-41a3-aeef-16a5976947d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/about.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/about.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/contact/contact.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact/contact.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/contact/contact.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact/contact.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/contact/contact.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact/contact.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/navbar/navbar.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/navbar/navbar.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/projects/projects.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/projects.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/projects/projects.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/projects.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/projects/projects.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/projects.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/review/review.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/review/review.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/review/review.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/review/review.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/models/project.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/models/project.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/project-detail/project-detail.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/project-detail/project-detail.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/project-detail/project-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/project-detail/project-detail.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/PortfolioApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/PortfolioApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/domains/About.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/domains/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/domains/DataLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/domains/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/domains/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/domains/Review.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/repositories/AboutRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/repositories/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/repositories/ProjectRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/repositories/ReviewRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/services/AboutService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/services/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/services/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/services/FileUploadService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/services/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/services/ProjectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/services/ReviewService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/services/StorageService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/web/EmailResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/web/EmailResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/PortfolioApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/PortfolioApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/domains/About.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/domains/DataLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/domains/DataLoader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/domains/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/domains/Project.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/domains/Review.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/repositories/AboutRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/repositories/ReviewRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/services/AboutService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/services/EmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/services/EmailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/services/FileUploadService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/services/ProjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/services/ProjectService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/services/ReviewService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/services/StorageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/web/EmailResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/web/EmailResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/portfolio-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/target/portfolio-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/portfolio-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/target/portfolio-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/target/portfolio-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/target/portfolio-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio/target/surefire-reports/TEST-tech.archdev.portfolio.PortfolioApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/target/surefire-reports/TEST-tech.archdev.portfolio.PortfolioApplicationTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio/target/surefire-reports/tech.archdev.portfolio.PortfolioApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/target/surefire-reports/tech.archdev.portfolio.PortfolioApplicationTests.txt" afterDir="false" />
     </list>
@@ -68,10 +33,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/project-detail/project-detail.component.html">
+        <entry file="file://$PROJECT_DIR$/src/app/contact/contact.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="44">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/contact/contact.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -107,17 +81,17 @@
         <option value="$PROJECT_DIR$/proxy.conf.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/app/contact/contact.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/contact/contact.component.css" />
         <option value="$PROJECT_DIR$/src/app/message.service.ts" />
         <option value="$PROJECT_DIR$/src/app/projects/projects.component.ts" />
         <option value="$PROJECT_DIR$/src/app/app-routing.module.ts" />
-        <option value="$PROJECT_DIR$/src/app/models/project.ts" />
-        <option value="$PROJECT_DIR$/src/app/project-detail/project-detail.component.css" />
         <option value="$PROJECT_DIR$/src/app/projects/projects.component.html" />
         <option value="$PROJECT_DIR$/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/src/app/project.service.ts" />
         <option value="$PROJECT_DIR$/src/app/project-detail/project-detail.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/models/project.ts" />
         <option value="$PROJECT_DIR$/src/app/project-detail/project-detail.component.html" />
+        <option value="$PROJECT_DIR$/src/app/project-detail/project-detail.component.css" />
+        <option value="$PROJECT_DIR$/src/app/contact/contact.component.css" />
       </list>
     </option>
   </component>
@@ -134,8 +108,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,6 +125,13 @@
               <item name="archDev" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="archDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="archDev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="about" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="archDev" type="b2602c69:ProjectViewProjectNode" />
@@ -178,12 +157,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547417167129" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547417169395" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../professional/CMA" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -216,17 +197,18 @@
       <workItem from="1547306499904" duration="19560000" />
       <workItem from="1547350064811" duration="2536000" />
       <workItem from="1547396935344" duration="15590000" />
+      <workItem from="1547417578037" duration="13259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80354000" />
+    <option name="totallyTimeSpent" value="93613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25963598" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26284796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -242,7 +224,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20285088" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20285088" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -338,13 +320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/about/about.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/navbar/navbar.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -376,24 +351,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/contact/contact.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/home/home.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="41" column="15" selection-start-line="41" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/contact/contact.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
@@ -404,20 +365,6 @@
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/models/project.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/project-detail/project-detail.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -495,10 +442,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/project-detail/project-detail.component.html">
+    <entry file="file://$PROJECT_DIR$/src/app/models/project.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/contact/contact.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/about/about.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/project-detail/project-detail.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/project-detail/project-detail.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/contact/contact.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>

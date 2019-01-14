@@ -3,4 +3,5 @@ export class Project {
   name: String;
   description: String;
   imageLocation: String;
+  tech: String;
 }

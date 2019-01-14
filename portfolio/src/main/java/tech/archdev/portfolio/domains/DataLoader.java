@@ -22,49 +22,64 @@ public class DataLoader implements ApplicationRunner {
             switch (i){
                 case 1:
                     project.setName("Hope Just Found");
-                    project.setDescription("This is the project description!");
+                    project.setTech("Java 8, Spring Boot, Spring Hibernate/JPA, Lombok, Jhipster," +
+                            " JWT Authentication, h2 in mem database, Postgres database, Angular 7," +
+                            " CSS Grid, Bootstrap");
+                    project.setDescription("This app is for the Hue Jackson Foundation. It's purpose " +
+                            "is to allow individuals/non-profits list donations they have. Then any verified" +
+                            "non-profit can search through the listed donations for anything they need. If they" +
+                            "find an item for donation they need they can view the contact information for the " +
+                            "entity responsible for listing that donation. If the non-profit can not find anything" +
+                            "they need, they can then make a listing for donation needed. Non-profits are verified" +
+                            "by EIN. All users must create an account that has a verified email address. *** This app " +
+                            "is currently under development, the current plan is to deploy on Digital Ocean with Docker.");
                     project.setImageLocation("hopeJustFound.png");
                     projectRepository.save(project);
-                    System.out.println("A new project was created!");
                     break;
                 case 2:
                     project.setName("Door To Door Sales App");
-                    project.setDescription("This is the project description!");
+                    project.setTech("Java 8, JDBC, Postgres database, JSP, Spring Hibernate, Spring Security");
+                    project.setDescription("This app allows door to door sales managers to track salesman by location. " +
+                            "Salesman/Supervisors can plot houses and plan routes. House details allow users to track orders " +
+                            "and notes from house call");
                     project.setImageLocation("doorToDoor.png");
                     projectRepository.save(project);
-                    System.out.println("A new project was created!");
                     break;
                 case 3:
                     project.setName("BlackJack");
-                    project.setDescription("This is the project description!");
+                    project.setTech("Python");
+                    project.setDescription("This app is a game to play BlackJack.");
                     project.setImageLocation("blackjack.png");
                     projectRepository.save(project);
-                    System.out.println("A new project was created!");
                     break;
                 case 4:
                     project.setName("Gallery From JSON");
-                    project.setDescription("This is the project description!");
+                    project.setTech("Angular 7, Bootstrap 4");
+                    project.setDescription("This app takes a json file and parses it in order to display images, ordered by department. " +
+                            "There is a detail view that displays additional information from the JSON file.");
                     project.setImageLocation("CMA.png");
                     projectRepository.save(project);
-                    System.out.println("A new project was created!");
                     break;
                 case 5:
                     project.setName("Commandline Vending Machine");
-                    project.setDescription("This is the project description!");
+                    project.setTech("Java 8");
+                    project.setDescription("This is a command line app that mimics the operation of a vending machine to " +
+                            "include giving change with minimal coins.");
                     project.setImageLocation("vendingMachine.png");
                     projectRepository.save(project);
-                    System.out.println("A new project was created!");
                     break;
                 case 6:
                     project.setName("Arch Dev");
-                    project.setDescription("This is the project description!");
+                    project.setTech("Java 11, Spring Boot, Spring Hibernate/JPA, Lombok, h2 in memory database, postgres," +
+                            "Angular 7, CSS Grid, Bootstrap");
+                    project.setDescription("This the app you are using.");
                     project.setImageLocation("archDev.png");
                     projectRepository.save(project);
-                    System.out.println("A new project was created!");
                     break;
                 default:
                     break;
             }
         }
+        System.out.println("All projects created!");
     }
 }
