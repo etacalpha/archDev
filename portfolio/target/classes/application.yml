@@ -2,8 +2,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: holder@gmail.com
-    password: holder
+    username: arch.dev.email@gmail.com
+    password: 123!@#BECks
     protocol: smtp
     tls: true
     properties.mail.smtp:
