@@ -11,7 +11,7 @@ import tech.archdev.portfolio.services.EmailService;
 
 
 @RestController
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://archdev.tech")
 public class EmailResource {
 
     @Autowired

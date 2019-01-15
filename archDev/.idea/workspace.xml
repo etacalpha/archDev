@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06766e86-454f-41a3-aeef-16a5976947d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/contact/contact.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact/contact.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/project.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/project.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/PortfolioApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/PortfolioApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/web/EmailResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/web/EmailResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/web/ProjectResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/web/ProjectResource.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -197,12 +195,12 @@
       <workItem from="1547396935344" duration="15590000" />
       <workItem from="1547417578037" duration="14116000" />
       <workItem from="1547568666284" duration="4526000" />
-      <workItem from="1547573605807" duration="1574000" />
+      <workItem from="1547573605807" duration="2001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100570000" />
+    <option name="totallyTimeSpent" value="100997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
