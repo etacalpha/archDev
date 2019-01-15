@@ -29,7 +29,9 @@ label {
   width: 25%;
 }
 input{
-  width:70%
+  width:70%;
+  background-color: #cccccc;
+
 }
 textarea{
   margin-top: 5px;
@@ -40,7 +42,9 @@ textarea{
   vertical-align:middle;
   margin-left:20px;
   width: 95%;
-  height: 20vw
+  height: 20vw;
+  background-color: #cccccc;
+
 }
 
 @media only screen and (max-width : 1000px) {

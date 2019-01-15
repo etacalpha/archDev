@@ -16,14 +16,13 @@ public class PortfolioApplication {
 		SpringApplication.run(PortfolioApplication.class, args);
 	}
 
-
 	@Bean
 	public WebMvcConfigurer corsConfigurer() {
 		return new WebMvcConfigurerAdapter() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/api/email").allowedOrigins("http://localhost:4200");
-				registry.addMapping("/api/projects").allowedOrigins("http://localhost:4200");
+				registry.addMapping("/api/email").allowedOrigins("*");
+				registry.addMapping("/api/projects").allowedOrigins("*");
 
 			}
 		};
