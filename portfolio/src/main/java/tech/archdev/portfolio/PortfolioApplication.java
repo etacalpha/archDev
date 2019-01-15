@@ -23,6 +23,8 @@ public class PortfolioApplication {
 			public void addCorsMappings(CorsRegistry registry) {
 				registry.addMapping("/api/email").allowedOrigins("*");
 				registry.addMapping("/api/projects").allowedOrigins("*");
+				registry.addMapping("/api/*").allowedOrigins("*");
+
 
 			}
 		};

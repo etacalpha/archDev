@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import {HttpClient, HttpHeaders} from "@angular/common/http";
-import {Observable, of, pipe} from "rxjs";
+import {Observable, of} from "rxjs";
 import {catchError, tap} from "rxjs/operators";
 import {MessageService} from "./message.service";
 import {Project} from "./models/project";
@@ -15,7 +15,7 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class ProjectService {
-  private projectUrl = 'http://localhost:8080/api/projects';
+  private projectUrl = 'http://archdev.tech:8080/api/projects';
 
   constructor(private messageService: MessageService, private http: HttpClient) { }
 
