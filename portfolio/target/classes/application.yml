@@ -3,7 +3,7 @@ spring:
     host: smtp.gmail.com
     port: 587
     username: arch.dev.email@gmail.com
-    password: 123!@#BECks
+    password: 123!@#BEArds
     protocol: smtp
     tls: true
     properties.mail.smtp:
