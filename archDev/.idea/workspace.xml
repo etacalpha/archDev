@@ -4,18 +4,7 @@
     <list default="true" id="06766e86-454f-41a3-aeef-16a5976947d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/contact/contact.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact/contact.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/project.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/project.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/PortfolioApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/PortfolioApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/web/EmailResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/web/EmailResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/web/ProjectResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/src/main/java/tech/archdev/portfolio/web/ProjectResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/PortfolioApplication$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/PortfolioApplication$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/web/EmailResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/web/EmailResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/web/ProjectResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/target/classes/tech/archdev/portfolio/web/ProjectResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/portfolio-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/target/portfolio-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/portfolio-1.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/target/portfolio-1.0.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/surefire-reports/TEST-tech.archdev.portfolio.PortfolioApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/target/surefire-reports/TEST-tech.archdev.portfolio.PortfolioApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/surefire-reports/tech.archdev.portfolio.PortfolioApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/target/surefire-reports/tech.archdev.portfolio.PortfolioApplicationTests.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -28,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/project.service.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
@@ -40,10 +29,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/contact/contact.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="748">
               <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
@@ -231,17 +220,18 @@
       <workItem from="1547396935344" duration="15590000" />
       <workItem from="1547417578037" duration="14116000" />
       <workItem from="1547568666284" duration="4526000" />
-      <workItem from="1547573605807" duration="2807000" />
+      <workItem from="1547573605807" duration="3718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101803000" />
+    <option name="totallyTimeSpent" value="102714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26927194" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26927194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -257,7 +247,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20285088" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20285088" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -514,22 +504,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/contact/contact.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/project.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/contact/contact.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
