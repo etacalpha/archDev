@@ -32,7 +32,7 @@ export class ContactComponent implements OnInit {
     // Make sure to create a deep copy of the form-model
     const result: Contact = Object.assign({}, this.contactForm.value);
     // Do useful stuff with the gathered data
-    this.http.post("http://archdev.tech:8080/api/email", result, {headers: this.headers}).subscribe((data) => {});
+    this.http.post("http://localhost::8080/api/email", result, {headers: this.headers}).subscribe((data) => {});
     console.log(result);
     this.revert();
   }
