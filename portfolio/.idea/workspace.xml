@@ -3,20 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="aeb3a32f-6c69-4a4c-b8c7-a8362873e6fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../archDev/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archDev/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archDev/proxy.conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/proxy.conf.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archDev/src/app/about/about.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/about/about.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archDev/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archDev/src/app/contact/contact.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/contact/contact.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archDev/src/app/home/home.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/home/home.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archDev/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archDev/src/app/navbar/navbar.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/navbar/navbar.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archDev/src/app/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/navbar/navbar.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archDev/src/app/project-detail/project-detail.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/project-detail/project-detail.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archDev/src/app/projects/projects.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/projects/projects.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archDev/src/app/review/review.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/review/review.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/PortfolioApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
+            <state relative-caret-position="308">
               <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
             </state>
           </provider>
@@ -40,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -82,9 +70,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/target/surefire-reports/tech.archdev.portfolio.PortfolioApplicationTests.txt" />
         <option value="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/web/EmailResource.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/web/ProjectResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/PortfolioApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -101,8 +89,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="portfolio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="portfolio" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane" />
     </panes>
   </component>
@@ -210,18 +208,19 @@
       <workItem from="1547568440900" duration="222000" />
       <workItem from="1547570698859" duration="1854000" />
       <workItem from="1547573606599" duration="15020000" />
-      <workItem from="1547613392899" duration="1097000" />
+      <workItem from="1547613392899" duration="1465000" />
+      <workItem from="1547642669913" duration="29000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68743000" />
+    <option name="totallyTimeSpent" value="69140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35171306" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35653105" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -387,7 +386,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/PortfolioApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
+        <state relative-caret-position="308">
           <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
         </state>
       </provider>
@@ -395,7 +394,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>

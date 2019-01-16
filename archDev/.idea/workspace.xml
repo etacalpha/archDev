@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06766e86-454f-41a3-aeef-16a5976947d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy.conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/proxy.conf.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/about.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/about.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/contact/contact.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact/contact.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/home.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/navbar/navbar.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/navbar/navbar.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/navbar/navbar.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/project-detail/project-detail.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/project-detail/project-detail.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/projects/projects.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/projects.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/review/review.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/review/review.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/target/classes/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -233,16 +219,15 @@
       <workItem from="1547417578037" duration="14116000" />
       <workItem from="1547568666284" duration="4526000" />
       <workItem from="1547573605807" duration="22448000" />
-      <workItem from="1547610298256" duration="4184000" />
+      <workItem from="1547610298256" duration="4546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125628000" />
+    <option name="totallyTimeSpent" value="125990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27301928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
