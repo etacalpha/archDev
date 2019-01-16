@@ -115,7 +115,7 @@ nav {
   }
 
   #Lside:after{
-    font-family: FontAwesome;
+    font-family: FontAwesome, serif;
     font-size: 40px;
     display: inline-block;
     content: '\f005';
@@ -126,21 +126,21 @@ nav {
   }
 
   #Rside:after{
-    font-family: FontAwesome;
+    font-family: FontAwesome, serif;
     font-size: 40px;
     display: inline-block;
     content: '\f0e0';
   }
 
   #about:after{
-    font-family: FontAwesome;
+    font-family: FontAwesome, serif;
     font-size: 40px;
     display: inline-block;
     content: '\f007';
   }
 
   #project:after{
-    font-family: FontAwesome;
+    font-family: FontAwesome, serif;
     font-size: 40px;
     display: inline-block;
     content: '\f00b';
@@ -186,5 +186,24 @@ nav {
 
   #project:after{
     font-size: 40px;
+  }
+}
+@media only screen and (max-width : 330px) {
+
+  #Lside:after{
+    font-size: 35px;
+
+  }
+
+  #Rside:after{
+    font-size: 35px;
+  }
+
+  #about:after{
+    font-size: 35px;
+  }
+
+  #project:after{
+    font-size: 35px;
   }
 }

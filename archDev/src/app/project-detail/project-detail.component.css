@@ -1,9 +1,10 @@
 header{
   position: relative;
   text-align: center;
-  font-size: 1.5vw;
+  font-size: x-large;
   text-shadow: 1px 1px 1px #000;
   top:-100px;
+  margin-top: 30vh;
 }
 
 #main{
@@ -12,16 +13,16 @@ header{
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: auto;
   grid-template-areas:
-    "tech img"
-    "description img";
+    "tech"
+    "description"
+    "img";
   grid-column-gap: 2vw;
   grid-row-gap: 2vw;
   width:95%;
-  margin: 30vh auto;
+  margin: auto;
   padding: 15px;
-  font-size: .9rem;
+  font-size: large;
   text-shadow: 1px 1px 1px #000;
-  line-height: 1.5rem;
   top:-100px;
 }
 
@@ -55,7 +56,7 @@ header{
 }
 
 #image img{
-  width: 70vw;
+  width: 95vw;
   border: 1px outset black;
 }
 
@@ -64,6 +65,7 @@ header{
 
   #main{
     display: grid;
+    width:95%;
     position: relative;
     grid-auto-rows: auto;
     grid-template-columns: auto;
@@ -72,10 +74,9 @@ header{
       "description"
       "img";
     grid-row-gap: 5vw;
-    width:100%;
     margin: auto;
     padding: 1vw;
-    font-size: .20rem;
+    font-size: large;
   }
 
   #image img{

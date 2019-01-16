@@ -1,40 +1,65 @@
 .container{
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  width:90%;
-  margin: 7rem auto;
+  display: flex;
+  justify-content: center;
+  align-content:center;
+  position: center;
+  margin:auto;
+}
+
+a{
+  color: #0F9E5E;
+  font-size: xx-large;
+  margin: 10px;
 }
 
 video{
-  position:relative;
-  margin:auto;
-  width:45vh;
+  display: flex;
+  position: center;
+  justify-content: center;
+  align-content:center;
+  margin: auto;
+  width:300px;
 }
 
 #img{
-border: .5rem outset #222020;
-border-radius: 50%;
+  border: .5rem outset #222020;
+  border-radius: 50%;
+}
+
+#github{
+  position: relative;
+  left:-100px;
+}
+
+#linkedin{
+  position: relative;
+  left:100px;
 }
 
 #github:after{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
   color: #447844;
-  font-family: FontAwesome;
-  font-size: 15vw;
+  font-family: FontAwesome, sans-serif;
+  font-size: 70px;
   content: '\f09b';
 }
 
 #linkedin:after{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
   color:#447844;
-  font-family: FontAwesome;
-  font-size: 15vw;
+  font-family: FontAwesome, sans-serif;
+  font-size: 70px;
   content: '\f08c';
+}
+
+@media only screen and (max-width: 592px){
+  .container{
+    margin-top: 20vh;
+  }
+
+  span{
+    display: none;
+  }
 }
 
 

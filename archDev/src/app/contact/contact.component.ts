@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {FormBuilder, FormGroup} from "@angular/forms";
-import {Contact} from "../models/contactForm";
-import {HttpClient, HttpHeaders} from "@angular/common/http";
+import {FormBuilder, FormGroup} from '@angular/forms';
+import {Contact} from '../models/contactForm';
+import {HttpClient, HttpHeaders} from '@angular/common/http';
 
 @Component({
   selector: 'app-contact',
@@ -11,9 +11,11 @@ import {HttpClient, HttpHeaders} from "@angular/common/http";
 export class ContactComponent implements OnInit {
   contactForm: FormGroup;
 
-  constructor(private formBuilder: FormBuilder,private http: HttpClient) {
+  constructor(private formBuilder: FormBuilder, private http: HttpClient) {
     this.contactForm = this.createFormGroupWithBuilder(formBuilder);
   }
+
+  private headers = new HttpHeaders({'Content-Type': 'application/json'});
 
   createFormGroupWithBuilder(formBuilder: FormBuilder) {
     return formBuilder.group({
@@ -26,7 +28,6 @@ export class ContactComponent implements OnInit {
     });
   }
 
-  private headers = new HttpHeaders({'Content-Type': 'application/json'});
 
   onSubmit() {
     // Make sure to create a deep copy of the form-model
@@ -47,7 +48,4 @@ export class ContactComponent implements OnInit {
 
   ngOnInit() {
   }
-
-
-
 }
