@@ -18,6 +18,7 @@ import {HttpClientModule} from "@angular/common/http";
 import { ProjectDetailComponent } from './project-detail/project-detail.component';
 import {ProjectService} from "./project.service";
 import {MessageService} from "./message.service";
+import {HashLocationStrategy, LocationStrategy} from "@angular/common";
  @NgModule ({
   declarations: [
     AppComponent,
@@ -33,9 +34,10 @@ import {MessageService} from "./message.service";
             AppRoutingModule,
             FontAwesomeModule,
             ReactiveFormsModule,
-            HttpClientModule
+            HttpClientModule,
+
   ],
-  providers: [ProjectService, MessageService],
+  providers: [ProjectService, MessageService, {provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule {

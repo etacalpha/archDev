@@ -17,7 +17,7 @@ header{
   grid-column-gap: 2vw;
   grid-row-gap: 2vw;
   width:95%;
-  margin: auto;
+  margin: 30vh auto;
   padding: 15px;
   font-size: .9rem;
   text-shadow: 1px 1px 1px #000;

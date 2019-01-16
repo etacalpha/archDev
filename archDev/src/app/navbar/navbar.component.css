@@ -1,16 +1,10 @@
-section {
-  height: 20rem;
-  width: 100%;
-  position: relative;
-}
-
 .container {
-  height: 100%;
-  border-radius: 155rem / 30rem;
-  border: solid .25rem #292828;
-  background-image: url('../../assets/images/54446_forest_dark_forest.jpg');
   position: relative;
-  top: -50%;
+  height: 12vw;
+  margin:auto auto 5vw auto;
+  border-radius: 155rem / 30rem;
+  border: solid .25rem #0b290e;
+  background-image: url('../../assets/images/54446_forest_dark_forest.jpg');
 }
 
 .container:before {
@@ -24,255 +18,173 @@ section {
   border-radius: 155rem / 30rem;
   border: outset 1.75rem #383535;
 }
+nav {
+  position: relative;
+  margin:auto;
+  top:3.2vw;
+  text-align: center;
+}
 
 .nav {
-  display: grid;
-  height: 5rem;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "review . . contact" ". . . ." ". projects about .";
-  text-align: center;
   position: relative;
-  font-size: 1.3rem;
-  font-weight: 400;
-  top: 63%;
+  width:80%;
+  margin: auto;
+  font-size: 1.5vw;
+  text-shadow: 1px 2px 1px #0b290e;
+  text-align: center;
 }
 
 .nav  a{
+  position: relative;
+  padding:1vw;
+  margin: 4vw;
+  top:.25vw;
   color: #61aa61;
-  text-shadow: 4px 4px 2px #000;
   text-decoration: none;
 }
 
 #home {
-  font-size: 3rem;
+  font-size: 3vw;
   color: #123612;
-  text-align: center;
-  position: relative;
-  bottom: -62%;
-  margin: auto;
-  left: 42%;
   text-decoration: none;
-  text-shadow: 1px 1px 0px rgb(190, 188, 17);
+  text-shadow: 1px 1px 1px rgb(190, 188, 17);
   font-weight: 500;
 }
 
-  #reviews {
-    grid-area: review;
-    position: relative;
-    bottom: -.8rem;
-    transform: rotate(12deg);
-  }
-
-#projects {
-  grid-area: projects;
-  position: relative;
-  text-align: center;
-  bottom: -.8rem;
-  transform: rotate(2.5deg);
+#Lside{
+  top:-.15vw;
+  transform: rotate(4.5deg);
 }
 
-#contact {
-  grid-area: contact;
-  position: relative;
-  text-align: center;
-  bottom: -.8rem;
-  transform: rotate(-12deg);
+#Rside{
+  top:-.25vw;
+  transform: rotate(-4.5deg);
 }
 
-#about {
-  grid-area: about;
-  position: relative;
-  text-align: center;
-  transform: rotate(-2.5deg);
-  bottom: -.7rem;
-}
-
-
-
-@media only screen and (max-width : 1600px) {
-
-  #contact {
-    grid-area: contact;
-    position: relative;
-    text-align: center;
-    bottom: -1.5rem;
-    transform: rotate(-12deg);
-  }
-
-
-  #reviews {
-    grid-area: review;
-    position: relative;
-    bottom: -1.5rem;
-    transform: rotate(12deg);
-  }
-}
-
-@media only screen and (max-width : 1220px) {
-
-  #contact {
-    grid-area: contact;
-    position: relative;
-    text-align: center;
-    bottom: -2.5rem;
-    transform: rotate(-12deg);
-  }
-
-
-  #reviews {
-    grid-area: review;
-    position: relative;
-    bottom: -2.5rem;
-    transform: rotate(12deg);
-  }
-}
-
-@media only screen and (max-width : 700px) {
-
-  section {
-    height: 20rem;
-    width: 100%;
-    position: relative;
-  }
-
-  .container:before {
-    content: " ";
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    right: 5px;
-    bottom: -2rem;
-    border-radius: 155rem / 50rem;
-    border: outset 1.75rem #383535;
+@media only screen and (max-width : 1415px) {
+  .nav {
+    font-size: 1.75vw;
   }
 
   .nav  a{
-    font-size: small;
-    color: #61aa61;
-    text-shadow: 4px 4px 2px #000;
-    text-decoration: none;
+    margin: 2vw;
+    top:1.5vw;
   }
 
   #home {
-    font-size: 3rem;
-    color: #123612;
-    text-align: center;
-    position: relative;
-    bottom: -62%;
-    margin: auto;
-    left: 25%;
-    text-decoration: none;
-    text-shadow: 1px 1px 0px rgb(190, 188, 17);
-    font-weight: 500;
+    font-size: 6vw;
   }
 
-  #reviews {
-    grid-area: review;
-    position: relative;
-    bottom: -3.2rem;
-    transform: rotate(12deg);
+  #Lside{
+    top:1vw;
+    transform: rotate(3.5deg);
   }
 
-  #reviews span {
-    display: none;
+  #Rside{
+    top:1vw;
+    transform: rotate(-3.5deg);
   }
-  #reviews:after {
+
+}
+
+@media only screen and (max-width : 900px) {
+  .container{
+    height:15vw;
+  }
+
+  .container:before{
+    border: outset 5.5rem #383535;
+
+  }
+
+  #home {
+    font-size: 6vw;
+  }
+
+  .nav span{
+    display: none
+  }
+
+  .nav  a{
+    margin: 6vw;
+    top:-1.4vw;
+  }
+
+  #Lside{
+    top:-2.6vw;
+  }
+
+  #Lside:after{
     font-family: FontAwesome;
-    font-size: 30px;
+    font-size: 40px;
     display: inline-block;
-    content: '\f005';  }
-
-  #projects {
-    grid-area: projects;
-    position: relative;
-    text-align: center;
-    bottom: -.8rem;
-    transform: rotate(2.5deg);
+    content: '\f005';
   }
 
-  #projects span {
-    display: none;
+  #Rside{
+    top:-2.9vw;
   }
-  #projects:after {
+
+  #Rside:after{
     font-family: FontAwesome;
-    font-size: 30px;
-    display: inline-block;
-    content: '\f00b';  }
-
-  #contact {
-    grid-area: contact;
-    position: relative;
-    text-align: center;
-    bottom: -3.2rem;
-    transform: rotate(-12deg);
-  }
-
-  #contact span {
-    display: none;
-  }
-  #contact:after {
-    font-family: FontAwesome;
-    font-size: 30px;
+    font-size: 40px;
     display: inline-block;
     content: '\f0e0';
   }
 
-  #about {
-    grid-area: about;
-    position: relative;
-    text-align: center;
-    transform: rotate(-2.5deg);
-    bottom: -.7rem;
-  }
-
-  #about span {
-    display: none;
-  }
-  #about:after {
+  #about:after{
     font-family: FontAwesome;
-    font-size: 30px;
+    font-size: 40px;
     display: inline-block;
     content: '\f007';
   }
 
+  #project:after{
+    font-family: FontAwesome;
+    font-size: 40px;
+    display: inline-block;
+    content: '\f00b';
+  }
+
 }
+@media only screen and (max-width : 717px) {
 
-@media only screen and (max-width : 400px) {
-
-  section {
-    height: 20rem;
-    width: 100%;
-    position: relative;
-  }
-
-  .container:before {
-    content: " ";
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    right: 5px;
-    bottom: -2rem;
-    border-radius: 155rem / 50rem;
-    border: outset 1.75rem #383535;
-  }
-
-  .nav  a{
-    font-size: small;
-    color: #61aa61;
-    text-shadow: 4px 4px 2px #000;
-    text-decoration: none;
+  .container{
+    height:25vw;
+    margin:2vw;
   }
 
   #home {
-    font-size: 3rem;
-    color: #123612;
-    text-align: center;
-    position: relative;
-    bottom: -62%;
-    margin: auto;
-    left: 15%;
-    text-shadow: 1px 1px 0 rgb(190, 188, 17);
-    font-weight: 500;
+    font-size: 18vw;
+  }
+
+  .nav  a {
+    top:3.5vw;
+    margin: 3.25vw;
+  }
+
+  #Lside{
+    top:1.5vw;
+  }
+
+  #Rside{
+    top:1.5vw;
+  }
+
+  #Lside:after{
+    font-size: 40px;
+
+  }
+
+  #Rside:after{
+    font-size: 40px;
+  }
+
+  #about:after{
+    font-size: 40px;
+  }
+
+  #project:after{
+    font-size: 40px;
   }
 }
