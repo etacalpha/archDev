@@ -30,6 +30,7 @@ nav {
   margin: auto;
   font-size: 1.5vw;
   text-align: center;
+  font-weight: bold;
 }
 
 .nav  a{
@@ -40,6 +41,7 @@ nav {
   color: #984b43;
   text-decoration: none;
   text-shadow: 1px 1px 1px #000;
+  font-weight: bold;
 
 }
 
@@ -118,7 +120,7 @@ nav {
     font-family: FontAwesome, serif;
     font-size: 40px;
     display: inline-block;
-    content: '\f005';
+    content: '\f007';
   }
 
   #Rside{
@@ -136,14 +138,14 @@ nav {
     font-family: FontAwesome, serif;
     font-size: 40px;
     display: inline-block;
-    content: '\f007';
+    content: '\f00b';
   }
 
   #project:after{
     font-family: FontAwesome, serif;
     font-size: 40px;
     display: inline-block;
-    content: '\f00b';
+    content: '\f005';
   }
 
 }

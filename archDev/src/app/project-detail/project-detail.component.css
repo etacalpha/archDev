@@ -21,13 +21,14 @@ header{
   width:95%;
   margin: auto;
   padding: 15px;
-  font-size: large;
-  text-shadow: 1px 1px 1px #233237;
+  font-size: 1.5em;
   top:-100px;
 }
 
 .title{
   color: #984b43;
+  text-shadow: 1px 1px 1px #233237;
+
 }
 .info{
   color: #ccc;

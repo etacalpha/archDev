@@ -6,7 +6,8 @@ i{
 a{
   color: #eac67a;
 }
-p{
+.text {
+  font-size: .7em;
   color:#cccccc;
 }
 
@@ -39,7 +40,7 @@ video{
   margin:auto 30px auto;
   color: #984b43;
   text-shadow: 1px 1px 1px #000;
-  font-size: large;
+  font-size: 2em;
 }
 
 .hello {

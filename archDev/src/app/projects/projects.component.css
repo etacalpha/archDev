@@ -15,7 +15,7 @@
 
 .cards {
   max-width: 960px;
-  margin: 0 auto 30px;
+  margin: 15vh auto 30px;
   padding:30px;
 }
 
@@ -24,7 +24,7 @@ article {
 }
 
 .article-img {
-  height: 200px;
+  height: 250px;
   width: 100%;
   object-fit: cover;
   border: 2.5px solid #233237;
@@ -38,3 +38,4 @@ article {
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.5);
 }
+
