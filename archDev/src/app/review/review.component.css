@@ -1,6 +1,6 @@
 section{
   position: relative;
-  margin: 40vh auto;
+  margin: 10vh auto;
 }
 #container{
   display: grid;
@@ -15,27 +15,29 @@ section{
 }
 
 .title{
-  color: #56b748;
+  color: #984b43;
   position: relative;
   vertical-align: center;
   font-size: x-large;
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 1px 1px 1px #233237;
   font-weight: 500;
   padding-bottom: 50px;
 }
 
 .title span{
-  color: #9baa50;
+  color: #c6a867;
 }
 
 .title img{
   height: 12vw;
+  border: 2.5px solid #233237;
 }
 
 .description{
   font-size: large;
-  color: #61aa61;
-  text-shadow: 1px 1px 1px #000;
+  color: #ccc;
+  text-shadow: 1px 1px 1px #233237;
+
 }
 
 #bill{
@@ -70,7 +72,7 @@ section{
       "bill billr billr "
       "toby tobyr tobyr "
       "james jamesr jamesr ";
-    margin: 20vh auto;
+    margin: 15vh auto;
     padding: 5px;
   }
 

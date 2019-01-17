@@ -3,7 +3,6 @@
   height: 12vw;
   margin:auto auto 5vw auto;
   border-radius: 155rem / 30rem;
-  border: solid .25rem #0b290e;
   background-image: url('../../assets/images/54446_forest_dark_forest.jpg');
 }
 
@@ -16,7 +15,7 @@
   right: 5px;
   bottom: -2rem;
   border-radius: 155rem / 30rem;
-  border: outset 1.75rem #383535;
+  border: solid 1.75rem #233237;
 }
 nav {
   position: relative;
@@ -30,7 +29,6 @@ nav {
   width:80%;
   margin: auto;
   font-size: 1.5vw;
-  text-shadow: 1px 2px 1px #0b290e;
   text-align: center;
 }
 
@@ -39,15 +37,17 @@ nav {
   padding:1vw;
   margin: 4vw;
   top:.25vw;
-  color: #61aa61;
+  color: #984b43;
   text-decoration: none;
+  text-shadow: 1px 1px 1px #000;
+
 }
 
 #home {
   font-size: 3vw;
-  color: #123612;
+  color: #18121e;
   text-decoration: none;
-  text-shadow: 1px 1px 1px rgb(190, 188, 17);
+  text-shadow: 1px 1px 1px #eac67a;
   font-weight: 500;
 }
 

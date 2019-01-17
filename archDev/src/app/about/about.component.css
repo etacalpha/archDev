@@ -3,20 +3,20 @@ main{
 }
 
 h2{
-  color: #61aa61;
-  text-shadow: 1px 1px 1px #000;
+  color: #984b43;
+  text-shadow: 1px 1px 1px #233237;
 
 }
 
 p{
-  color: #61aa61;
-  text-shadow: 1px 1px 1px #000;
+  color: #ccc;
+  text-shadow: 1px 1px 1px #233237;
   font-size: x-large;
 
 }
 
 a{
-  color: cyan;
+  color: #c6a867;
   text-decoration: none;
 }
 
@@ -26,3 +26,5 @@ a{
 .figure1 img{
   width:15rem;
 }
+
+

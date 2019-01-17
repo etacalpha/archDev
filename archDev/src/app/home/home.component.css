@@ -1,15 +1,22 @@
-.container{
-  display: flex;
-  justify-content: center;
-  align-content:center;
-  position: center;
-  margin:auto;
+i{
+  font-size: 25px;
+  margin: 5px;
 }
 
 a{
-  color: #0F9E5E;
-  font-size: xx-large;
-  margin: 10px;
+  color: #eac67a;
+}
+p{
+  color:#cccccc;
+}
+
+.container{
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  justify-content: space-evenly;
+  align-content:center;
+  position: center;
+  margin:20px 300px auto;
 }
 
 video{
@@ -22,44 +29,36 @@ video{
 }
 
 #img{
-  border: .5rem outset #222020;
+  border: 2px outset #eac67a;
   border-radius: 50%;
 }
 
-#github{
-  position: relative;
-  left:-100px;
+#intro{
+  justify-content: center;
+  align-content:center;
+  margin:auto 30px auto;
+  color: #984b43;
+  text-shadow: 1px 1px 1px #000;
+  font-size: large;
 }
 
-#linkedin{
-  position: relative;
-  left:100px;
+.hello {
+  font-size: xx-large;
+  color:#eac67a;
 }
 
-#github:after{
-  position: relative;
-  color: #447844;
-  font-family: FontAwesome, sans-serif;
-  font-size: 70px;
-  content: '\f09b';
-}
-
-#linkedin:after{
-  position: relative;
-  color:#447844;
-  font-family: FontAwesome, sans-serif;
-  font-size: 70px;
-  content: '\f08c';
-}
-
-@media only screen and (max-width: 592px){
+@media only screen and (max-width: 720px){
   .container{
     margin-top: 20vh;
   }
-
-  span{
-    display: none;
+}
+@media only screen and (max-width: 537px){
+  .container{
+    margin: 20vh auto;
+    display: inline-block;
+    justify-content: center;
   }
+
 }
 
 

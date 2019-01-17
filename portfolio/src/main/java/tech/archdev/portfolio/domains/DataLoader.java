@@ -26,7 +26,7 @@ public class DataLoader implements ApplicationRunner {
                             " JWT Authentication, h2 in mem database, Postgres database, Angular 7," +
                             " CSS Grid, Bootstrap");
                     project.setDescription("This app is for the Hue Jackson Foundation. It's purpose " +
-                            "is to allow individuals/non-profits list donations they have. Then any verified" +
+                            "is to allow individuals/non-profits to list donations they have. Any verified" +
                             "non-profit can search through the listed donations for anything they need. If they" +
                             "find an item for donation they need they can view the contact information for the " +
                             "entity responsible for listing that donation. If the non-profit can not find anything" +
@@ -41,7 +41,7 @@ public class DataLoader implements ApplicationRunner {
                     project.setTech("Java 8, JDBC, Postgres database, JSP, Spring Hibernate, Spring Security");
                     project.setDescription("This app allows door to door sales managers to track salesman by location. " +
                             "Salesman/Supervisors can plot houses and plan routes. House details allow users to track orders " +
-                            "and notes from house call");
+                            "and notes from a house call.");
                     project.setImageLocation("doorToDoor.png");
                     projectRepository.save(project);
                     break;
@@ -55,7 +55,7 @@ public class DataLoader implements ApplicationRunner {
                 case 4:
                     project.setName("Gallery From JSON");
                     project.setTech("Angular 7, Bootstrap 4");
-                    project.setDescription("This app takes a json file and parses it in order to display images, ordered by department. " +
+                    project.setDescription("This app takes a JSON file and parses it in order to display images, ordered by department. " +
                             "There is a detail view that displays additional information from the JSON file.");
                     project.setImageLocation("CMA.png");
                     projectRepository.save(project);
@@ -70,8 +70,8 @@ public class DataLoader implements ApplicationRunner {
                     break;
                 case 6:
                     project.setName("Arch Dev");
-                    project.setTech("Java 11, Spring Boot, Spring Hibernate/JPA, Lombok, h2 in memory database, postgres," +
-                            "Angular 7, CSS Grid, Bootstrap");
+                    project.setTech("Java 11, Spring Boot, Spring Hibernate/JPA, Lombok, h2 in memory database," +
+                            "Angular 7, CSS Grid, Bootstrap, Docker, Docker-Compose, NGINX, Node.js, Digital Ocean, Ubuntu/Arch Linux,");
                     project.setDescription("This the app you are using.");
                     project.setImageLocation("archDev.png");
                     projectRepository.save(project);

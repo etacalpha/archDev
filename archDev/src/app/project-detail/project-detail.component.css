@@ -22,15 +22,15 @@ header{
   margin: auto;
   padding: 15px;
   font-size: large;
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 1px 1px 1px #233237;
   top:-100px;
 }
 
 .title{
-  color: #0F9E5E;
+  color: #984b43;
 }
 .info{
-  color: #5a9f2f;
+  color: #ccc;
 }
 
 
@@ -57,7 +57,7 @@ header{
 
 #image img{
   width: 95vw;
-  border: 1px outset black;
+  border: 1px outset #233237;
 }
 
 
@@ -86,11 +86,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid 1px #fff;
+    border: solid 1px #233237;
 
   }
   #img {
-    border: solid 1px #fff;
+    border: solid 1px #233237;
   }
 
 }

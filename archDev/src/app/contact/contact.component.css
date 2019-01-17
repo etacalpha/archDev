@@ -1,10 +1,10 @@
 .container{
   position: relative;
   width:50%;
-  margin-top: 30vh;
+  margin-top: 27vh;
   left: 50%;
   transform: translate(-50%, -10%);
-  background-color: #353738;
+  background-color: #233237;
 }
 
 form{
@@ -13,8 +13,9 @@ form{
   grid-row-gap: .5vw;
   padding:2vw;
   text-shadow: 1px 1px 1px #000;
-  border: 2px outset #487e48;
-  color: #71c671;
+  border: 2px outset #984b43;
+  color: #c6a867;
+
 
 
 }
@@ -44,7 +45,10 @@ textarea{
   width: 95%;
   height: 20vw;
   background-color: #cccccc;
+}
 
+button{
+  height:35px;
 }
 
 @media only screen and (max-width : 1000px) {
@@ -59,7 +63,7 @@ textarea{
     grid-template-rows: repeat(4,1fr);
     grid-row-gap: 1vw;
     padding:2vw;
-    border: 20px #dc9712;
+    border: 20px #c6a867;
 
   }
 
