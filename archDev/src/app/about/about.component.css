@@ -1,5 +1,12 @@
 main{
-  margin-top: 23vh;
+  margin: 19vh auto;
+
+}
+
+#images{
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
 }
 
 h2{
@@ -29,4 +36,12 @@ a{
   border:2px solid #c6a867 ;
 }
 
+@media only screen and (max-width: 720px){
 
+}
+@media only screen and (max-width: 537px){
+  #images{
+    display: inline-block;
+  }
+
+}

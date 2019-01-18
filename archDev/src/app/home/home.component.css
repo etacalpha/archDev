@@ -1,5 +1,5 @@
 i{
-  font-size: 25px;
+  font-size: 1em;
   margin: 5px;
 }
 
@@ -20,18 +20,14 @@ a{
   margin:20px 300px auto;
 }
 
-video{
-  display: flex;
+figure img{
   position: center;
   justify-content: center;
   align-content:center;
-  margin: auto;
-  width:300px;
-}
-
-#img{
   border: 2px outset #eac67a;
   border-radius: 50%;
+  margin: auto;
+  width:20em;
 }
 
 #intro{
@@ -41,6 +37,7 @@ video{
   color: #984b43;
   text-shadow: 1px 1px 1px #000;
   font-size: 2em;
+  padding-bottom: 50px;
 }
 
 .hello {
@@ -58,6 +55,10 @@ video{
     margin: 20vh auto;
     display: inline-block;
     justify-content: center;
+  }
+
+  figure img{
+  width: 15em;
   }
 
 }
