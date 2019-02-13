@@ -2,12 +2,13 @@ version: "2.3"
 
 services:
   archdevclient:
-    build: ./archDev
+    image: etacalpha/archdev:client
     ports:
       - 80:80
     restart: unless-stopped
+
   archdevserver:
-    build: ./portfolio
+    image: etacalpha/archdev:server
     ports:
       - 8080:8080
     restart: unless-stopped

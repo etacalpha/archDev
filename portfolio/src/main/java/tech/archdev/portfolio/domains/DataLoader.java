@@ -17,7 +17,7 @@ public class DataLoader implements ApplicationRunner {
     }
 
     public void run(ApplicationArguments args) {
-        for (int i = 0; i <= 6; i++){
+        for (int i = 0; i <= 7; i++){
             Project project = new Project();
             switch (i){
                 case 1:
@@ -74,6 +74,15 @@ public class DataLoader implements ApplicationRunner {
                             "Angular 7, CSS Grid, Bootstrap, Docker, Docker-Compose, NGINX, Node.js, Digital Ocean, Ubuntu/Arch Linux,");
                     project.setDescription("This the app you are using.");
                     project.setImageLocation("archDev.png");
+                    projectRepository.save(project);
+                    break;
+                case 7:
+                    project.setName("Location API");
+                    project.setTech("Java 11, Spring Boot, Spring Hibernate/JPA, Lombok, h2 in memory database, Postgres database," +
+                            "Swagger-UI, Bootstrap, Docker, Docker-Compose, AWS(EC2), CentOS/Arch Linux,");
+                    project.setDescription("This API returns location information about cities in the U.S. There are three " +
+                            "endpoints to limit the amount of data returned.");
+                    project.setImageLocation("locationapi.png");
                     projectRepository.save(project);
                     break;
                 default:
