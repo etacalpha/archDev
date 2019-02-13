@@ -1,0 +1,13 @@
+version: "2.3"
+
+services:
+  archdevclient:
+    build: ./archDev
+    ports:
+      - 80:80
+    restart: unless-stopped
+  archdevserver:
+    build: ./portfolio
+    ports:
+      - 8080:8080
+    restart: unless-stopped
