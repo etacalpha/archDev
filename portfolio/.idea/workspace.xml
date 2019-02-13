@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39b1bb58-5bfe-46c3-afc2-1daa2a55def5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../archDev/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/DataLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/PortfolioApplication$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/PortfolioApplication$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/PortfolioApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/PortfolioApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/domains/DataLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/domains/DataLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/domains/Email.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/domains/Email.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/domains/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/domains/Project.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/repositories/ProjectRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/repositories/ProjectRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/services/EmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/services/EmailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/services/ProjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/services/ProjectService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/web/EmailResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/web/EmailResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/web/ProjectResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/web/ProjectResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tech/archdev/portfolio/PortfolioApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tech/archdev/portfolio/PortfolioApplicationTests.class" afterDir="false" />
-    </list>
+    <list default="true" id="39b1bb58-5bfe-46c3-afc2-1daa2a55def5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -147,12 +130,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550017533536</updated>
-      <workItem from="1550017534887" duration="1730000" />
+      <workItem from="1550017534887" duration="1987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1730000" />
+    <option name="totallyTimeSpent" value="1987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />

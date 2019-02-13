@@ -1,30 +1,31 @@
-import { Injectable } from '@angular/core';
-import {HttpClient, HttpHeaders} from "@angular/common/http";
-import {Observable, of} from "rxjs";
-import {catchError, tap} from "rxjs/operators";
-import {MessageService} from "./message.service";
-import {Project} from "./models/project";
+import { Injectable } from "@angular/core";
+import { HttpClient, HttpHeaders } from "@angular/common/http";
+import { Observable, of } from "rxjs";
+import { catchError, tap } from "rxjs/operators";
+import { MessageService } from "./message.service";
+import { Project } from "./models/project";
 
 const httpOptions = {
-  headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+  headers: new HttpHeaders({ "Content-Type": "application/json" })
 };
 
-
-
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root"
 })
 export class ProjectService {
-  private projectUrl = 'http://68.183.117.112:8080/api/projects';
+  private projectUrl = "http://steven-beard.io:8080/api/projects";
 
-  constructor(private messageService: MessageService, private http: HttpClient) { }
+  constructor(
+    private messageService: MessageService,
+    private http: HttpClient
+  ) {}
 
   getProjects(): Observable<Project[]> {
     // TODO: send the message _after_ fetching the heroes
-    this.messageService.add('ProjectService: fetched projects');
+    this.messageService.add("ProjectService: fetched projects");
     return this.http.get<Project[]>(this.projectUrl).pipe(
-      tap(_ => this.log('fetched projects')),
-      catchError(this.handleError('getProjects', []))
+      tap(_ => this.log("fetched projects")),
+      catchError(this.handleError("getProjects", []))
     );
   }
   getProject(id: number): Observable<Project> {
@@ -39,9 +40,8 @@ export class ProjectService {
     this.messageService.add(`ProjectService: ${message}`);
   }
 
-  private handleError<T> (operation = 'operation', result?: T) {
+  private handleError<T>(operation = "operation", result?: T) {
     return (error: any): Observable<T> => {
-
       // TODO: send the error to remote logging infrastructure
       console.error(error); // log to console instead
 
@@ -52,5 +52,4 @@ export class ProjectService {
       return of(result as T);
     };
   }
-
 }
