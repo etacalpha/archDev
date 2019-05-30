@@ -13,7 +13,7 @@ const httpOptions = {
   providedIn: "root"
 })
 export class ProjectService {
-  private projectUrl = "http://localhost:8080/api/projects";
+  private projectUrl = "http://steven-beard.io:8080/api/projects";
 
   constructor(
     private messageService: MessageService,
