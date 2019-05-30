@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a3b4ff2-27b8-493c-8216-05c2985da7ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archDev/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archDev/src/app/models/project.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/models/project.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archDev/src/app/project-detail/project-detail.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/project-detail/project-detail.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/DataLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/web/ProjectResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/web/ProjectResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/PortfolioApplication$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/PortfolioApplication$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/PortfolioApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/PortfolioApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/domains/DataLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/domains/DataLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/domains/Email.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/domains/Email.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/domains/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/domains/Project.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/repositories/ProjectRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/repositories/ProjectRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/services/EmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/services/EmailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/services/ProjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/services/ProjectService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/web/EmailResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/web/EmailResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/web/ProjectResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tech/archdev/portfolio/web/ProjectResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tech/archdev/portfolio/PortfolioApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tech/archdev/portfolio/PortfolioApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archDev/src/app/project-detail/project-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/project-detail/project-detail.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archDev/src/app/project.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/project.service.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/DataLoader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="501">
-              <caret line="105" column="13" lean-forward="true" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+              <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/web/ProjectResource.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="415">
-              <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+              <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -83,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/Project.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -91,10 +70,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/PortfolioApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="395">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -112,7 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="954" />
     <option name="height" value="1080" />
   </component>
@@ -207,6 +191,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -257,19 +245,19 @@
       <option name="presentableId" value="Default" />
       <updated>1559241542057</updated>
       <workItem from="1559241547391" duration="696000" />
-      <workItem from="1559242281730" duration="1598000" />
+      <workItem from="1559242281730" duration="3052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2294000" />
+    <option name="totallyTimeSpent" value="3748000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="0" width="1930" height="1085" extended-state="6" />
+    <frame x="-5" y="0" width="1930" height="1085" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="aws.explorer" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2529412" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2529412" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -278,15 +266,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Learn" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32903227" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.13548388" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.14086021" />
       <window_info anchor="bottom" id="Docker" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -327,14 +316,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/web/ProjectResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
-          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/DataLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="501">
-          <caret line="105" column="13" lean-forward="true" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+          <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -344,14 +333,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/Project.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/PortfolioApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="395">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
