@@ -17,7 +17,7 @@ public class DataLoader implements ApplicationRunner {
     }
 
     public void run(ApplicationArguments args) {
-        for (int i = 0; i <= 7; i++){
+        for (int i = 0; i <= 9; i++){
             Project project = new Project();
             switch (i){
                 case 1:
@@ -34,6 +34,7 @@ public class DataLoader implements ApplicationRunner {
                             "by EIN. All users must create an account that has a verified email address. *** This app " +
                             "is currently under development, the current plan is to deploy on Digital Ocean with Docker.");
                     project.setImageLocation("hopeJustFound.png");
+                    project.setDataLocation("https://github.com/etacalpha/HopeJustFound");
                     projectRepository.save(project);
                     break;
                 case 2:
@@ -43,6 +44,7 @@ public class DataLoader implements ApplicationRunner {
                             "Salesman/Supervisors can plot houses and plan routes. House details allow users to track orders " +
                             "and notes from a house call.");
                     project.setImageLocation("doorToDoor.png");
+                    project.setDataLocation("https://github.com/etacalpha/techElevatorCapstones/tree/master/team-hat-8");
                     projectRepository.save(project);
                     break;
                 case 3:
@@ -50,6 +52,7 @@ public class DataLoader implements ApplicationRunner {
                     project.setTech("Python");
                     project.setDescription("This app is a game to play BlackJack.");
                     project.setImageLocation("blackjack.png");
+                    project.setDataLocation("https://github.com/etacalpha/learningApps/tree/master/python/games");
                     projectRepository.save(project);
                     break;
                 case 4:
@@ -58,6 +61,7 @@ public class DataLoader implements ApplicationRunner {
                     project.setDescription("This app takes a JSON file and parses it in order to display images, ordered by department. " +
                             "There is a detail view that displays additional information from the JSON file.");
                     project.setImageLocation("CMA.png");
+                    project.setDataLocation("https://github.com/etacalpha/CMA-developer-code-test");
                     projectRepository.save(project);
                     break;
                 case 5:
@@ -66,6 +70,7 @@ public class DataLoader implements ApplicationRunner {
                     project.setDescription("This is a command line app that mimics the operation of a vending machine to " +
                             "include giving change with minimal coins.");
                     project.setImageLocation("vendingMachine.png");
+                    project.setDataLocation("https://github.com/etacalpha/techElevatorCapstones/tree/master/java-module-1-capstone-steven");
                     projectRepository.save(project);
                     break;
                 case 6:
@@ -74,6 +79,7 @@ public class DataLoader implements ApplicationRunner {
                             "Angular 7, CSS Grid, Bootstrap, Docker, Docker-Compose, NGINX, Node.js, Digital Ocean, Ubuntu/Arch Linux,");
                     project.setDescription("This the app you are using.");
                     project.setImageLocation("archDev.png");
+                    project.setDataLocation("https://github.com/etacalpha/archDev");
                     projectRepository.save(project);
                     break;
                 case 7:
@@ -83,6 +89,16 @@ public class DataLoader implements ApplicationRunner {
                     project.setDescription("This API returns location information about cities in the U.S. There are three " +
                             "endpoints to limit the amount of data returned.");
                     project.setImageLocation("locationapi.png");
+                    project.setDataLocation("https://github.com/etacalpha/locationAPI");
+                    projectRepository.save(project);
+                    break;
+                case 8:
+                    project.setName("Cities Map");
+                    project.setTech("D3js, HTML, CSS, AWS(S3), CentOS/Arch Linux,");
+                    project.setDescription("This is a map with all the cities plotted by geolocation using D3js. The " +
+                            "information for the cities is pulled from an API.");
+                    project.setImageLocation("citiesMap.png");
+                    project.setDataLocation("https://github.com/etacalpha/learningApps/tree/master/d3js/US_Cities");
                     projectRepository.save(project);
                     break;
                 default:

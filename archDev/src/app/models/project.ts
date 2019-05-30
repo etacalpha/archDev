@@ -4,4 +4,6 @@ export class Project {
   description: String;
   imageLocation: String;
   tech: String;
+  dataLocation: String;
+  webAddress: String;
 }

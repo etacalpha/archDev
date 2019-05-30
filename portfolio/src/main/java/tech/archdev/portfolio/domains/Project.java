@@ -28,4 +28,10 @@ public class Project implements Serializable {
 
     @Column(name="imageLocation")
     private String imageLocation;
+
+    @Column(name="dataLocation")
+    private String dataLocation;
+
+    @Column(name="webAddress")
+    private String webAddress;
 }

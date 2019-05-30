@@ -2,8 +2,10 @@ package tech.archdev.portfolio.web;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import tech.archdev.portfolio.domains.Project;
+import tech.archdev.portfolio.repositories.ProjectRepository;
 import tech.archdev.portfolio.services.ProjectService;
 
 
@@ -13,6 +15,8 @@ public class ProjectResource {
 
     @Autowired
     ProjectService projectService;
+    ProjectRepository projectRepository;
+
 
     @GetMapping("/api/projects")
     public List<Project> getProjects() {
@@ -24,5 +28,12 @@ public class ProjectResource {
     public Project getOne(@PathVariable long id) {
         System.out.println("The projects/id was hit");
         return projectService.getById(id);
+    }
+
+    @PostMapping("/api/projects")
+    public ResponseEntity<Object> createProject(@RequestBody Project project){
+        Project savedProject = projectRepository.save(project);
+
+        return ResponseEntity.accepted().build();
     }
 }
