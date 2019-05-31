@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a3b4ff2-27b8-493c-8216-05c2985da7ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../archDev/src/app/project-detail/project-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/project-detail/project-detail.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archDev/src/app/project.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../archDev/src/app/project.service.ts" afterDir="false" />
-    </list>
+    <list default="true" id="6a3b4ff2-27b8-493c-8216-05c2985da7ad" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/DataLoader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="501">
@@ -67,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/PortfolioApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
+            <state relative-caret-position="500">
               <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
             </state>
           </provider>
@@ -96,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="954" />
     <option name="height" value="1080" />
   </component>
@@ -245,15 +242,15 @@
       <option name="presentableId" value="Default" />
       <updated>1559241542057</updated>
       <workItem from="1559241547391" duration="696000" />
-      <workItem from="1559242281730" duration="3052000" />
+      <workItem from="1559242281730" duration="3055000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3748000" />
+    <option name="totallyTimeSpent" value="3751000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="0" width="1930" height="1085" extended-state="7" />
+    <frame x="-5" y="0" width="1930" height="1085" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="aws.explorer" side_tool="true" />
@@ -320,16 +317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/DataLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/Project.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -342,8 +329,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/PortfolioApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
+        <state relative-caret-position="500">
           <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/archdev/portfolio/domains/DataLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
